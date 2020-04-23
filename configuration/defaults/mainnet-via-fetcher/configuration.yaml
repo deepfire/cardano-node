@@ -216,11 +216,11 @@ options:
   # and override and not an extension so anything matched here will not
   # go to the default backend, only to the explicitly listed backends.
   mapBackends:
-    cardano.node.ChainDB.metrics:
+    node.ChainDB.metrics:
       - EKGViewBK
-    cardano.node.metrics:
+    node.metrics:
       - EKGViewBK
-    cardano.node-metrics:
+    node-metrics:
       - EKGViewBK
 
   # This section is more expressive still, and needs to be properly documented.
@@ -233,19 +233,19 @@ options:
     '#ekgview':
       contents:
       - - tag: Contains
-          contents: 'cardano.epoch-validation.benchmark'
+          contents: 'epoch-validation.benchmark'
         - - tag: Contains
             contents: .monoclock.basic.
       - - tag: Contains
-          contents: 'cardano.epoch-validation.benchmark'
+          contents: 'epoch-validation.benchmark'
         - - tag: Contains
             contents: diff.RTS.cpuNs.timed.
       - - tag: StartsWith
-          contents: '#ekgview.#aggregation.cardano.epoch-validation.benchmark'
+          contents: '#ekgview.#aggregation.epoch-validation.benchmark'
         - - tag: Contains
             contents: diff.RTS.gcNum.timed.
       subtrace: FilterTrace
-    'cardano.epoch-validation.utxo-stats':
+    'epoch-validation.utxo-stats':
       # Change the `subtrace` value to `Neutral` in order to log
       # `UTxO`-related messages during epoch validation.
       subtrace: NoTrace
