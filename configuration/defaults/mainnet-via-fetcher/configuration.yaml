@@ -136,7 +136,7 @@ TraceBlockFetchProtocol: False
 TraceBlockFetchProtocolSerialised: False
 
 # Trace BlockFetch server.
-TraceBlockFetchServer: False
+TraceBlockFetchServer: True
 
 # Verbose tracer of ChainDB
 TraceChainDb: True
