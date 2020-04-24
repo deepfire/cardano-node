@@ -160,7 +160,7 @@ TraceDNSResolver: True
 TraceDNSSubscription: True
 
 # Trace error policy resolution.
-TraceErrorPolicy: True
+TraceErrorPolicy: False
 
 # Trace local error policy resolution.
 TraceLocalErrorPolicy: True
