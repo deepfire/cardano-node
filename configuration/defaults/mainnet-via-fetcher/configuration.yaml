@@ -157,7 +157,7 @@ TraceChainSyncProtocol: False
 TraceDNSResolver: True
 
 # Trace DNS Subscription messages.
-TraceDNSSubscription: True
+TraceDNSSubscription: False
 
 # Trace error policy resolution.
 TraceErrorPolicy: True
