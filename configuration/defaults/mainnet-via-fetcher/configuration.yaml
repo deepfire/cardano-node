@@ -166,7 +166,7 @@ TraceErrorPolicy: True
 TraceLocalErrorPolicy: True
 
 # Trace block forging.
-TraceForge: True
+TraceForge: False
 
 # Trace Handshake protocol messages.
 TraceHandshake: False
