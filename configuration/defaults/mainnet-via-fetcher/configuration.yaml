@@ -163,7 +163,7 @@ TraceDNSSubscription: True
 TraceErrorPolicy: True
 
 # Trace local error policy resolution.
-TraceLocalErrorPolicy: True
+TraceLocalErrorPolicy: False
 
 # Trace block forging.
 TraceForge: True
