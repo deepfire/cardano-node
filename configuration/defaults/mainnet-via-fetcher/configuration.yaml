@@ -196,7 +196,7 @@ TraceMux: False
 TraceTxInbound: False
 
 # Trace TxSubmission client (outbound transactions).
-TraceTxOutbound: False
+TraceTxOutbound: True
 
 # Trace TxSubmission protocol messages.
 TraceTxSubmissionProtocol: False
