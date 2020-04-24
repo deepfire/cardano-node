@@ -199,7 +199,7 @@ TraceTxInbound: False
 TraceTxOutbound: False
 
 # Trace TxSubmission protocol messages.
-TraceTxSubmissionProtocol: False
+TraceTxSubmissionProtocol: True
 
 
 ##### Fine grained logging control #####
