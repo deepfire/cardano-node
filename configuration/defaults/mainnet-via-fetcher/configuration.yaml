@@ -154,7 +154,7 @@ TraceChainSyncHeaderServer: False
 TraceChainSyncProtocol: False
 
 # Trace DNS Resolver messages.
-TraceDNSResolver: True
+TraceDNSResolver: False
 
 # Trace DNS Subscription messages.
 TraceDNSSubscription: True
