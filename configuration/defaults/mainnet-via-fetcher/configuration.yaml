@@ -124,7 +124,7 @@ rotation:
 # efficient at filtering out unwanted trace output.
 
 # Trace BlockFetch client.
-TraceBlockFetchClient: False
+TraceBlockFetchClient: True
 
 # Trace BlockFetch decisions made by the BlockFetch client.
 TraceBlockFetchDecisions: False
