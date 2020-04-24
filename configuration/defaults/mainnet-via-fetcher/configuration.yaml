@@ -169,7 +169,7 @@ TraceLocalErrorPolicy: True
 TraceForge: True
 
 # Trace Handshake protocol messages.
-TraceHandshake: False
+TraceHandshake: True
 
 # Trace IP Subscription messages.
 TraceIpSubscription: True
