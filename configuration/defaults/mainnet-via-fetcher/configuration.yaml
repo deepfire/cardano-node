@@ -178,7 +178,7 @@ TraceIpSubscription: False
 TraceLocalChainSyncProtocol: False
 
 # Trace local Handshake protocol messages.
-TraceLocalHandshake: False
+TraceLocalHandshake: True
 
 # Trace local TxSubmission protocol messages.
 TraceLocalTxSubmissionProtocol: True
