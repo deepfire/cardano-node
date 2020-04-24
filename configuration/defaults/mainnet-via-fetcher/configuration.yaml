@@ -181,7 +181,7 @@ TraceLocalChainSyncProtocol: False
 TraceLocalHandshake: False
 
 # Trace local TxSubmission protocol messages.
-TraceLocalTxSubmissionProtocol: False
+TraceLocalTxSubmissionProtocol: True
 
 # Trace local TxSubmission server.
 TraceLocalTxSubmissionServer: False
