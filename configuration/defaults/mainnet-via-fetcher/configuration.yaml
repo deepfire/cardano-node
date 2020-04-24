@@ -46,7 +46,7 @@ ApplicationVersion: 1
 ViewMode: SimpleView
 
 # Enble or disable logging overall
-TurnOnLogging: True
+TurnOnLogging: False
 
 # Enable the collection of various OS metrics such as memory and CPU use.
 # These metrics can be directed to the logs or monitoring backends.
