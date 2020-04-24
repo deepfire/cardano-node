@@ -184,7 +184,7 @@ TraceLocalHandshake: False
 TraceLocalTxSubmissionProtocol: False
 
 # Trace local TxSubmission server.
-TraceLocalTxSubmissionServer: False
+TraceLocalTxSubmissionServer: True
 
 # Trace mempool.
 TraceMempool: True
