@@ -148,7 +148,7 @@ TraceChainSyncClient: False
 TraceChainSyncBlockServer: False
 
 # Trace ChainSync server (headers)
-TraceChainSyncHeaderServer: False
+TraceChainSyncHeaderServer: True
 
 # Trace ChainSync protocol messages.
 TraceChainSyncProtocol: False
